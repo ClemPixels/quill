@@ -4,6 +4,7 @@ import { useState } from 'react'
 import {
   Dialog,
   DialogContent,
+  DialogTitle,
   DialogTrigger,
 } from './ui/dialog'
 import { Button } from './ui/button'
@@ -183,6 +184,7 @@ const UploadButton = ({
       </DialogTrigger>
 
       <DialogContent>
+      <DialogTitle/>
         <UploadDropzone isSubscribed={isSubscribed} />
       </DialogContent>
     </Dialog>
